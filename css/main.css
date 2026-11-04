@@ -273,5 +273,6 @@ progress::-webkit-progress-value{
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 500;
+    text-transform: uppercase;
 }
 

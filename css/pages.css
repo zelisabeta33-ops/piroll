@@ -1,0 +1,61 @@
+.head-work{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 95px 0;
+}
+.page-title{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.gallery-hover_work{
+    background-color: #10c9c382;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.gallery-item:hover .gallery-hover_work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-about{
+    background-image: url(../img//header-about-me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 43%;
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+}
+.hover-about{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00000097;
+    padding: 170px 0 0 0;
+}
+.head-about h1, .head-about p{
+    color: white;
+}
+
+.image-about{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info-about{
+    padding: 125px 30px 125px 70px;
+    background-color: #f5f5f5;
+}
+
+.need-project{
+    text-align: center;
+    padding: 100px 0;
+}

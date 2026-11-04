@@ -1,28 +1,29 @@
-.footer{
+footer{
     color: white;
     padding: 95px 0;
 }
-.brand{
-    margin-right: 100px;
-}
-.brand h3{
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-.footer-item p, .footer-item a{
+footer ul a{
+    color: white;
     font-size: 15px;
     color: #bcbcbc;
-    margin: 3px;
-}
-.footer-item a{
+    font-family: "Nunito Sans", sans-serif;
     display: inline-block;
     transition: color 0.3s ease, transform 0.3s ease;
 }
-.footer-item a:hover{
+footer ul a:hover{
     color: #10c9c3;
-    transform: translateX(8px);
+    transform: translateX(5px);
 }
-.menu{
-    display: flex;
-    gap: 55px;
+footer h3{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.footer-menu{
+    margin-left: 50px;
+}
+footer p{
+    margin: 0;
+}
+.email-footer{
+    padding-left: 100px;
 }
