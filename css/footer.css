@@ -2,7 +2,10 @@ footer{
     color: white;
     padding: 95px 0;
 }
-footer ul a{
+.footer-block{
+    justify-content: space-between;
+}
+.footer-block ul a{
     color: white;
     font-size: 15px;
     color: #bcbcbc;
@@ -10,18 +13,18 @@ footer ul a{
     display: inline-block;
     transition: color 0.3s ease, transform 0.3s ease;
 }
-footer ul a:hover{
+.footer-block ul a:hover{
     color: #10c9c3;
     transform: translateX(5px);
 }
-footer h3{
+.footer-block h3{
     font-size: 18px;
     margin-bottom: 25px;
 }
 .footer-menu{
     margin-left: 50px;
 }
-footer p{
+.footer-block p{
     margin: 0;
 }
 .email-footer{
