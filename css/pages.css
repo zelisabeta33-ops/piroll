@@ -74,7 +74,7 @@
 .contact-info{
     margin-bottom: 100px;
 }
-.contact-info-span{
+.common-span{
     color: black;
     font-weight: 600;
     padding-right: 5px;
@@ -107,4 +107,17 @@
 }
 .contact-map:has(.fa-location-dot:hover) img{
     transform: translateY(-7%) scale(1.1);
+}
+
+.block-breakfast{
+    background-image: url(../img/portfolio-single-2-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-color: #f8f9f9;
+    padding: 100px 0;
+}
+.breakfast-buttons{
+    display: flex;
+    justify-content: space-between;
 }
