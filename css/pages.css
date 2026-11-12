@@ -58,9 +58,6 @@
     width: 100%;
     max-width: 455px;
 }
-.last-p{
-    margin-bottom: 35px;
-}
 
 .need-project{
     text-align: center;
@@ -84,40 +81,70 @@
     overflow: hidden;
     position: relative;
 }
-.contact-map img{
+.contact-map iframe{
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    transform: translateY(-10%);
-    transition: transform 0.3s ease;
-}
-.location-pin{
-    position: absolute;
-    top: 35%;
-    right: 45%;
-    cursor: pointer;
-}
-.fa-location-dot{
-    font-size: 23px;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-.fa-location-dot:hover{
-    color: #10c9c3;
-    transform: scale(1.2) translate(10%, 10%);
-}
-.contact-map:has(.fa-location-dot:hover) img{
-    transform: translateY(-7%) scale(1.1);
+    height: 100%;
+    display: block;
 }
 
 .block-breakfast{
-    background-image: url(../img/portfolio-single-2-1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
+    position: relative;
+    overflow: hidden;
     background-color: #f8f9f9;
     padding: 100px 0;
+}
+.block-breakfast > img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.block-breakfast .container{
+    position: relative;
+    z-index: 2;
 }
 .breakfast-buttons{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
+.breakfast-item button{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 165px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: gap 0.3s ease, color 0.3s ease;
+}
+.breakfast-item:last-child button{
+    justify-content: flex-end;
+}
+.arrow{
+    font-size: 28px;
+    font-weight: 300;
+    position: relative;
+    top: -3px;
+    transition: transform 0.3s ease;
+}
+.breakfast-item:hover .arrow{
+    transform: scale(1.1);
+}
+.breakfast-item button:hover{
+    gap: 6px;
+    color: #10c9c3;
+}
+.breakfast-item img{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
 }
